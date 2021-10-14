@@ -1,5 +1,4 @@
-; (function () {
-	"use strict";
+window.onload = function () {
 	let btn = document.querySelector('.menu-toggle');
 	let menu = document.querySelector('.menu');
 	let hamRotate = document.querySelector('.hamRotate');
@@ -10,5 +9,5 @@
 		ham1.classList.toggle('active');
 
 	});
-})();
+}
 
